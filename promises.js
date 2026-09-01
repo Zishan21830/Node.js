@@ -94,3 +94,5 @@ async function getUser(){
     }
 }
 getUser()
+   
+console.log("Hello World")
