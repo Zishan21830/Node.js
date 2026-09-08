@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Mini Dev Server</title>
+
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>Mini Dev Server</h1>
+        <h2>Hello ECE-B</h2>
+        <p>
+            Change this HTML or CSS file and save it.
+        </p>
+
+        <p>
+            The browser will automatically reload.
+        </p>
+
+    </div>
+
+    <script>
+
+        const reloadSource = new EventSource("/__reload");
+
+        reloadSource.onmessage = (event) => {
+
+            console.log("File changed:", event.data);
+
+            location.reload();
+
+        };
+
+    </script>
+
+</body>
+</html>
