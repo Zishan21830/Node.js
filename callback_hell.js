@@ -1,3 +1,11 @@
+/**
+ * When multiple async operations depend on the result if the previous operation, developers traditionally chain callbacks by nesting them inside one another.
+ * Consider a scenerio where we need to 
+ * 1. fetch user
+ * 2. fetch user profile
+ * 3. fetch user posts using profile data
+ */
+
 function getUser(id, callback) {
   setTimeout(() => {
     console.log("User Fetched");
@@ -46,3 +54,6 @@ getUser(1, function (error, user) {
     });
   });
 });
+
+// It creates a pyramid like structure that is called 'Callback Hell'
+// We can resolve this by using the promises and async/await.
