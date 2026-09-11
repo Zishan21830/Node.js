@@ -55,44 +55,17 @@ Promise.allSettled([promise1, promise2])
   .catch((error) => {
     console.log(error);
   });
+
 // 4. Promise.any([promise1, promise2, ....])
-// Promise.any([promise1, promise2])
-// .then((response)=>{
-//     console.log("Response from 1st .then");
-//     return response
-// })
-// .then((response2)=>{
-//     console.log("Response from 2nd .then");
-//     console.log(response2);
-// })
-// .catch((error)=>{
-//     console.log(error);
-// })
-
-function fetchUserData() {
-  return Promise.any([promise1, promise2])
-    .then((response) => {
-      console.log("Response from 1st .then");
-      return response;
-    })
-    .then((response2) => {
-      console.log("Response from 2nd .then");
-      console.log(response2);
-    })
-    .catch((error) => {
-      console.log(error);
-    });
-}
-
-async function getUser(){
-    try {
-        const user = await fetchUserData()
-    console.log(user);
-    } catch (error) {
-        console.log(error);
-        
-    }
-}
-getUser()
-   
-console.log("Hello World")
+Promise.any([promise1, promise2])
+.then((response)=>{
+    console.log("Response from 1st .then");
+    return response
+})
+.then((response2)=>{
+    console.log("Response from 2nd .then");
+    console.log(response2);
+})
+.catch((error)=>{
+    console.log(error);
+})
