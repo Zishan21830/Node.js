@@ -1,0 +1,209 @@
+[
+  {
+    "id": "1",
+    "title": "To Kill a Mockingbird",
+    "author": "Harper Lee",
+    "published_year": 1960,
+    "genres": ["Classic", "Fiction", "Historical"],
+    "available": true,
+    "price": 12.99
+  },
+  {
+    "id": "2",
+    "title": "The Hobbit",
+    "author": "J.R.R. Tolkien",
+    "published_year": 1937,
+    "genres": ["Fantasy", "Adventure"],
+    "available": true,
+    "price": 15.75
+  },
+  {
+    "id": "3",
+    "title": "Pride and Prejudice",
+    "author": "Jane Austen",
+    "published_year": 1813,
+    "genres": ["Classic", "Romance", "Satire"],
+    "available": true,
+    "price": 9.99
+  },
+  {
+    "id": "4",
+    "title": "The Catcher in the Rye",
+    "author": "J.D. Salinger",
+    "published_year": 1951,
+    "genres": ["Classic", "Fiction", "Coming-of-Age"],
+    "available": false,
+    "price": 11.25
+  },
+  {
+    "id": "5",
+    "title": "War and Peace",
+    "author": "Leo Tolstoy",
+    "published_year": 1869,
+    "genres": ["Historical Fiction", "Epic"],
+    "available": false,
+    "price": 15.55
+  },
+  {
+    "id": "6",
+    "title": "Crime and Punishment",
+    "author": "Fyodor Dostoevsky",
+    "published_year": 1866,
+    "genres": ["Philosophical Fiction", "Psychological Thriller"],
+    "available": true,
+    "price": 13.4
+  },
+  {
+    "id": "7",
+    "title": "The Odyssey",
+    "author": "Homer",
+    "published_year": -800,
+    "genres": ["Epic Poetry", "Mythology", "Classic"],
+    "available": true,
+    "price": 16
+  },
+  {
+    "id": "8",
+    "title": "Meditations",
+    "author": "Marcus Aurelius",
+    "published_year": 180,
+    "genres": ["Philosophy", "Stoicism"],
+    "available": true,
+    "price": 11.5
+  },
+  {
+    "id": "9",
+    "title": "Beyond Good and Evil",
+    "author": "Friedrich Nietzsche",
+    "published_year": 1886,
+    "genres": ["Philosophy"],
+    "available": true,
+    "price": 11
+  },
+  {
+    "id": "10",
+    "title": "Being and Time",
+    "author": "Martin Heidegger",
+    "published_year": 1927,
+    "genres": ["Philosophy", "Existentialism"],
+    "available": false,
+    "price": 19.99
+  },
+  {
+    "id": "11",
+    "title": "Dune",
+    "author": "Frank Herbert",
+    "published_year": 1965,
+    "genres": ["Sci-Fi", "Science Fiction", "Adventure"],
+    "available": true,
+    "price": 16.99
+  },
+  {
+    "id": "12",
+    "title": "Neuromancer",
+    "author": "William Gibson",
+    "published_year": 1984,
+    "genres": ["Sci-Fi", "Cyberpunk"],
+    "available": true,
+    "price": 12.5
+  },
+  {
+    "id": "13",
+    "title": "The Left Hand of Darkness",
+    "author": "Ursula K. Le Guin",
+    "published_year": 1969,
+    "genres": ["Sci-Fi", "Science Fiction"],
+    "available": false,
+    "price": 14
+  },
+  {
+    "id": "14",
+    "title": "Atomic Habits",
+    "author": "James Clear",
+    "published_year": 2018,
+    "genres": ["Motivational", "Self-Help", "Productivity"],
+    "available": true,
+    "price": 16
+  },
+  {
+    "id": "15",
+    "title": "The 7 Habits of Highly Effective People",
+    "author": "Stephen R. Covey",
+    "published_year": 1989,
+    "genres": ["Motivational", "Self-Help", "Business"],
+    "available": true,
+    "price": 15.2
+  },
+  {
+    "id": "16",
+    "title": "Awaken the Giant Within",
+    "author": "Tony Robbins",
+    "published_year": 1991,
+    "genres": ["Motivational", "Self-Help"],
+    "available": true,
+    "price": 21.55
+  },
+  {
+    "id": "17",
+    "title": "Man's Search for Meaning",
+    "author": "Viktor E. Frankl",
+    "published_year": 1946,
+    "genres": ["Philosophy", "Psychology", "Motivational"],
+    "available": true,
+    "price": 11.99
+  },
+  {
+    "id": "18",
+    "title": "The Alchemist",
+    "author": "Paulo Coelho",
+    "published_year": 1988,
+    "genres": ["Motivational", "Philosophy", "Adventure"],
+    "available": true,
+    "price": 12.5
+  },
+  {
+    "id": "19",
+    "title": "The Three-Body Problem",
+    "author": "Cixin Liu",
+    "published_year": 2008,
+    "genres": ["Sci-Fi", "Science Fiction"],
+    "available": true,
+    "price": 14.99
+  },
+  {
+    "id": "20",
+    "title": "Sapiens: A Brief History of Humankind",
+    "author": "Yuval Noah Harari",
+    "published_year": 2011,
+    "genres": ["History", "Philosophy", "Science"],
+    "available": true,
+    "price": 16.5
+  },
+  {
+    "id": "21",
+    "title": "Foundation",
+    "author": "Isaac Asimov",
+    "published_year": 1951,
+    "genres": ["Sci-Fi", "Science Fiction", "Classic"],
+    "available": true,
+    "price": 14.99
+  },
+  {
+    "id": "22",
+    "title": "The White Tiger",
+    "author": "Aravind Adiga",
+    "published_year": 2008,
+    "genres": ["Fiction", "Satire", "Contemporary"],
+    "available": true,
+    "price": 14.75
+  },
+  {
+    "id": "23",
+    "title": "The God of Small Things",
+    "author": "Arundhati Roy",
+    "published_year": 1997,
+    "genres": ["Fiction", "Drama", "Classic"],
+    "available": true,
+    "price": 13.5
+  }
+]
